@@ -43,7 +43,7 @@
 	      	</div>
 	      	<%= simple_form_for Quote.new do |f| %>
 		      	<div class="modal-body">
-					<%= f.input :saying, :label => "What is the quote that you want to add? - You known you are in the backcountry when...", :placeholder => "The mosquitos are bigger than your hand." %>
+					<%= f.input :saying, :label => "What is the quote that you want to add? - \"You know you are in the backcountry when...\"", :placeholder => "The mosquitos are bigger than your hand." %>
 					<br />
 					<%= f.input :author, :label => "Who is the author of the quote?", :placeholder => "John Smith" %>
 				</div>
@@ -72,8 +72,8 @@
 				<%= link_to "I want more! Give me another thought.", root_path, :class=> 'next-quote' %>
 			</div>
 			<div class="col-xs-12 col-sm-6 footer-blurb">
-				Proudly hacked in Denver, CO by <a href="http://brantwellman.com">Brant Wellman</a><br />
-				Want to build your own Splurty Web App - <a href="http://thefirehoseproject.com">Learn how to code here</a>
+				Proudly hacked in Denver, CO by <a target="_blank" href="http://brantwellman.com">Brant Wellman</a><br />
+				Want to build your own Splurty Web App - <a target="_blank" href="http://thefirehoseproject.com">Learn how to code here</a>
 			</div>
 		</div>
 	</div>
